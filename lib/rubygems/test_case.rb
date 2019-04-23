@@ -1543,8 +1543,6 @@ end
 begin
   gem 'rdoc'
   require 'rdoc'
-
-  require 'rubygems/rdoc'
 rescue LoadError, Gem::LoadError
 end
 
